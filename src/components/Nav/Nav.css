@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-logo-semi{
+    color: rgb(52, 191, 191);
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-btn{
+    height: 2rem;
+    width: 4rem;
+    border: none;
+    color: white;
+    background-color: rgb(52, 191, 191);
+    border-radius: 5px;
+    cursor: pointer;
+}
