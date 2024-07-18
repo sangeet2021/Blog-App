@@ -1,8 +1,12 @@
+
+
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 40px 220px;
     margin-top: 10px;
+    
 }
 
 .nav-logo-semi{

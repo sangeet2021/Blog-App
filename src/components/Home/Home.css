@@ -1,0 +1,30 @@
+.home{
+    margin: 0px 220px;
+}
+
+.home-blogs{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blog-card{
+    height: 100px;
+    width: 20%;
+    background-color: rgb(247, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.blog-card:hover{
+    background-color: lightgray;
+}
+    
